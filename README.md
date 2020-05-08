@@ -6,6 +6,8 @@ Vi-v is a visual scripting UI for vlang. It allow anyone to create their own pro
 
 Vi-v is prononced /vˈaɪ.vi/. It's like Ivy but with a V before.
 
+You can became a member of the community by joining the [Discord Server](https://discord.gg/xXpCWV4)
+
 ## Why Vi-v ?
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
