@@ -1,4 +1,4 @@
-# Vi-v reflexions ![vi-v-logo][vi-v-logo]
+# ![vi-v-logo][vi-v-logo] Vi-v reflexions 
 [vi-v-logo]: ./pictures/vi-v_logo_45x.png "Vi-v logo"
 [workflow_hello_world]: ./pictures/vi-v_hello_world.png "Vi-v Example Workflow"
 
