@@ -25,6 +25,3 @@ jobs:
     - name: Build Vi-v
       run: |
         make
-    - name: Test Vi-v
-      run: |
-        make test
