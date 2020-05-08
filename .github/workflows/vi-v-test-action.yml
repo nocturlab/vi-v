@@ -1,0 +1,29 @@
+name: Test Vi-v
+
+on:
+- push
+- pull_request
+
+jobs:
+  test:
+    name: Test with ${{ matrix.os }}
+    runs-on: 
+      - ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set up V version master
+      uses: nocturlab/setup-vlang-action@v1
+      with:
+        v-version: master
+      id: v
+    - name: Build Vi-v
+      run: |
+        make
+    - name: Test Vi-v
+      run: |
+        make test
