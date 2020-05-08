@@ -10,6 +10,6 @@ Before starting to develop Vi-v we need to think how it will work.
 
 To use Vi-v, you will drag and drop box from the left right panel to the drawing area and link each boxes to create the main flow of your apps.
 
-Hre an example of usage : 
+Here an example of usage : 
 
 ![workflow_hello_world][workflow_hello_world]
