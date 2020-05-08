@@ -6,10 +6,9 @@ on:
 
 jobs:
   build:
-    name: Build with ${{ matrix.os }} ${{ matrix.arch }}
+    name: Build with ${{ matrix.os }}
     runs-on: 
       - ${{ matrix.os }}
-      - ${{ matrix.arch }}
     strategy:
       fail-fast: false
       matrix:
