@@ -1,4 +1,4 @@
-# vi-v
+# vi-v [![Build Status](https://github.com/nocturlab/vi-v/workflows/Build/badge.svg)](https://github.com/nocturlab/vi-v/actions)
 
 Vi-v is a visual scripting UI for vlang. It allow anyone to create their own programs easly where low programmation skills is needed.
 
