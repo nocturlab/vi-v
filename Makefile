@@ -1,3 +1,3 @@
 
 build:
-  @v -prod build main.v
+	@v -prod build main.v
