@@ -1,8 +1,9 @@
 # ![vi-v-logo][vi-v-logo] Vi-v reflexions 
 [vi-v-logo]: ./pictures/vi-v_logo_45x.png "Vi-v logo"
-[workflow_example_01]: ./pictures/vi-v_hello_world.png "Vi-v Example Workflow"
-[workflow_hello_world_01]: ./pictures/9EE9177A-2533-4883-97AC-263558E57959.png
-[workflow_hello_world_02]:	./pictures/A4631256-0A4E-4EB1-A684-192CEB986056.png
+[workflow_main_page]: ./pictures/49A386BA-6689-498F-8A62-1AB36EDBC567_1_105_c.jpeg "Vi-v Main page"
+[workflow_project_page]: ./pictures/FEFB3852-F5EA-44E2-9385-5C08D86F88DA_1_105_c.jpeg "Vi-v project page"
+[workflow_hello_world]: ./pictures/E3C7A85B-093A-43D3-A38D-5151225D25D0_1_105_c.jpeg "Hello World"
+[workflow_game_test]: ./pictures/EF414187-6CE5-4B76-8AD8-E72B35420EFE_1_105_c.jpeg "Vi-v Game Test"
 
 ## Before starting
 
@@ -12,9 +13,9 @@ Before starting to develop Vi-v we need to think how it will work.
 
 To use Vi-v, you will drag and drop box from the left right panel to the drawing area and link each boxes to create the main flow of your apps.
 
-Here an example of usage : 
-
-![Workflow example 01][workflow_example_01]
+![Workflow main page][workflow_main_page]
+![Workflow project page][workflow_project_page]
+![Workflow Hello world][workflow_hello_world]
 
 We have some different types of boxes :
 - value boxes - that can contain values mutable or not. the best is to automaticaly detect if it was mutable.
@@ -28,9 +29,8 @@ But it will be very difficult to implement and not really stable.
 
 To set an hello world with modules, you basically just have to do this : 
 
-You create modules file : 
-![Workflow Hello World 01][workflow_hello_world_01]
-You will set an entry, and an output. entry and output can have values or just flow. 
+You create modules using input (Start) and output (End) : 
 
-And you use the module created before : 
-![Workflow Hello World 02][workflow_hello_world_02]
+![Workflow Game Test][workflow_game_test]
+
+You will set an entrypoint, and output. entry and output can have values or just flow and you use the module created before.
