@@ -1,3 +1,3 @@
 
 build:
-  @${V_HOME}/v -prod build main.v
+  @v -prod build main.v
