@@ -7,7 +7,7 @@
 
 ## Before starting
 
-Before starting to develop Vi-v we need to think how it will work.
+Before starting to develop Vi-v we need to think about how it will work.
 
 ## Usage
 
