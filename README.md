@@ -13,7 +13,7 @@ You can became a member of the community by joining the [Discord Server](https:/
 
 ## Why Vi-v ?
 
-    I have seen how difficult it's been for people to get into their projects.
+    I have seen how difficult it's for people to get into their projects.
     So I've tried to find a solution to help anybody to develop great software.
     
     Vi-v is this solution I've found.
