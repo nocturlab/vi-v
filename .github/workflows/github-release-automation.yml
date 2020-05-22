@@ -28,8 +28,10 @@ jobs:
         echo "${output}"
         
         echo "Get the v.mod version"
-        version=$(cat v.mod | grep -i 'version')
-        version=${version//\"}
+        version=$(cat v.mod | grep -i 'version' | cut -d':' -f2)
+        version=${version//" "}
+        version=${version//"'"}
+        version=${version//","}
         echo "${version}"
         
         echo "Edit the version in the release"
