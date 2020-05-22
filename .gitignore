@@ -1,5 +1,9 @@
+
 # V files
 vi-v
+
+# MacOS Files
+**/.DS_Store
 
 # Prerequisites
 *.d

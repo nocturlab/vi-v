@@ -28,7 +28,7 @@ jobs:
         echo "${output}"
         
         echo "Get the v.mod version"
-        version=$(cat v.mod | jq '.version')
+        version=$(cat v.mod | grep -i 'version')
         version=${version//\"}
         echo "${version}"
         
