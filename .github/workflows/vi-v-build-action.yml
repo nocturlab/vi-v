@@ -50,7 +50,7 @@ jobs:
         # Strip "v" prefix from tag name
         [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo ${VERSION} | sed -e 's/^v//')
         # Use Docker `latest` tag convention
-        [ "$VERSION" == "master" ] && VERSION=latest
+        [ "$VERSION" == "main" ] && VERSION=latest
         if [ -n "${{ matrix.platform }}" ]; then
           _platform=${{ matrix.platform }}
           VERSION="${VERSION}-${_platform//\/}"
@@ -74,7 +74,7 @@ jobs:
     - name: Get current branch
       run: |
         BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/} | sed 's/\//_/g')
-        if [ "${BRANCH_NAME}" = "master" ]; then
+        if [ "${BRANCH_NAME}" = "main" ]; then
           BRANCH_NAME="latest"
         fi
         echo "::set-env name=BRANCH_NAME::${BRANCH_NAME}"
