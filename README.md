@@ -1,6 +1,7 @@
 # ![vi-v-logo][vi-v-logo] vi-v [![Build Status](https://github.com/nocturlab/vi-v/workflows/Build%20Vi-v/badge.svg)](https://github.com/nocturlab/vi-v/actions) [![Tests Status](https://github.com/nocturlab/vi-v/workflows/Test%20Vi-v/badge.svg)](https://github.com/nocturlab/vi-v/actions)
 [vi-v-logo]: /design/pictures/vi-v_logo_45x.png "Vi-v logo"
-Vi-v is a visual scripting UI for vlang. It allow anyone to create their own programs easly where low programmation skills is needed.
+
+Vi-v is a visual scripting UI for vlang. It allows anyone to create their own programs easily without an extensive programming skill.
 
 
 ## Introduction
