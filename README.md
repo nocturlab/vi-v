@@ -26,5 +26,5 @@ You can became a member of the community by joining the [Discord Server](https:/
 
 Look at the video : 
 
-[<img src="https://peertube.nocturlab.fr/static/thumbnails/1d366245-b3ac-4018-b0c0-f75875544580.jpg" width="50%">](https://peertube.nocturlab.fr/videos/embed/1d366245-b3ac-4018-b0c0-f75875544580)
+[<img src="https://peertube.nocturlab.fr/static/thumbnails/1d366245-b3ac-4018-b0c0-f75875544580.jpg" width="50%">](https://tube.nocturlab.fr/videos/watch/9120fde4-c7a0-4133-8475-5bd10079009c)
 
